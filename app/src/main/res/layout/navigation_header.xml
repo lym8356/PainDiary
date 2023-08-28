@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/menuUserImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="40dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:tint="@color/theme_green" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/menuSupport"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        app:layout_constraintBottom_toBottomOf="@id/menuUserImage"
+        app:layout_constraintEnd_toEndOf="@+id/menuUserImage"
+        app:layout_constraintStart_toStartOf="@id/menuUserImage"
+        app:layout_constraintTop_toTopOf="@id/menuUserImage" />
+
+    <TextView
+        android:id="@+id/menuHeaderWelcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/menuSupport"
+        app:layout_constraintStart_toEndOf="@id/menuUserImage"
+        android:text="@string/menu_title_welcome"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"
+        android:layout_marginStart="10dp" />
+
+    <TextView
+        android:id="@+id/menuUser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/menu_title_user"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto_bold"
+        app:layout_constraintStart_toEndOf="@id/menuUserImage"
+        app:layout_constraintTop_toBottomOf="@id/menuSupport"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

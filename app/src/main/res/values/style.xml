@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/theme_red</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/theme_red</item>
+
+<!--        <item name="materialCalendarFullscreenTheme">-->
+<!--            @style/CustomThemeOverlay_MaterialCalendar_Fullscreen-->
+<!--        </item>-->
+
+        <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar</item>
+    </style>
+
+<!--    <style name="CustomThemeOverlay_MaterialCalendar_Fullscreen" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen">-->
+<!--        <item name="materialCalendarStyle">@style/Custom_MaterialCalendar.Fullscreen</item>-->
+<!--    </style>-->
+
+<!--    <style name="Custom_MaterialCalendar.Fullscreen" parent="@style/Widget.MaterialComponents.MaterialCalendar.Fullscreen">-->
+<!--        <item name="android:windowFullscreen">false</item>-->
+<!--    </style>-->
+
+    <style name="tabTextSize" parent="TextAppearance.Design.Tab">
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+</resources>

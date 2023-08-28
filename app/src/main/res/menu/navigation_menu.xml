@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuHome"
+        android:title="@string/menu_home"
+        android:icon="@drawable/home">
+    </item>
+
+    <item
+        android:id="@+id/menuPainDataEntry"
+        android:title="@string/menu_data_entry"
+        android:icon="@drawable/add">
+    </item>
+
+    <item
+        android:id="@+id/menuDailyRecords"
+        android:title="@string/menu_daily_record"
+        android:icon="@drawable/checklist">
+    </item>
+
+    <item
+        android:id="@+id/menuPainReport"
+        android:title="@string/menu_report"
+        android:icon="@drawable/report">
+    </item>
+
+    <item
+        android:id="@+id/menuMap"
+        android:title="@string/menu_map"
+        android:icon="@drawable/map">
+    </item>
+
+    <item
+        android:id="@+id/menuWorker"
+        android:title="@string/menu_worker"
+        android:icon="@drawable/worker">
+    </item>
+
+    <item
+        android:id="@+id/menuLogout"
+        android:title="@string/menu_logout"
+        android:icon="@drawable/logout">
+    </item>
+
+</menu>

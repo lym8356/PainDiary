@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp" >
+
+        <TextView
+            android:id="@+id/rvDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_weight="0.4"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/rvPainLocation"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4" />
+        <TextView
+            android:id="@+id/rvPainLevel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:layout_weight="0.4"/>
+        <ImageView
+            android:id="@+id/rvEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/ic_baseline_edit_24"
+            android:layout_marginLeft="8dp" />
+        <ImageView
+            android:id="@+id/rvDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="0.03"
+            android:src="@drawable/ic_baseline_delete_24"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuHome">
+
+    <fragment
+        android:id="@+id/menuHome"
+        android:name="com.fit5046.paindiary.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menuPainDataEntry"
+        android:name="com.fit5046.paindiary.fragment.DataEntryFragment"
+        android:label="fragment_data_entry"
+        tools:layout="@layout/fragment_data_entry" />
+    <fragment
+        android:id="@+id/menuDailyRecords"
+        android:name="com.fit5046.paindiary.fragment.DailyRecordsFragment"
+        android:label="fragment_daily_records"
+        tools:layout="@layout/fragment_daily_records" />
+    <fragment
+        android:id="@+id/menuPainReport"
+        android:name="com.fit5046.paindiary.fragment.ReportFragment"
+        android:label="fragment_report"
+        tools:layout="@layout/fragment_report" />
+    <fragment
+        android:id="@+id/menuMap"
+        android:name="com.fit5046.paindiary.fragment.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/menuWorker"
+        android:name="com.fit5046.paindiary.fragment.WorkerFragment"
+        android:label="fragment_worker"
+        tools:layout="@layout/fragment_worker" />
+</navigation>
