@@ -1,5 +1,5 @@
 # Pain Diary - Android App
-Monash IE FIT5120
+Monash FIT5046
 
 Full App Demo: [Youtube](https://youtu.be/ZhlGR0-LL24?si=39KWAxKirj9-zUvW)
 
