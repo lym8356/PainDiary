@@ -15,3 +15,5 @@
 local.properties
 
 app/src/main/res/values/strings.xml
+app/src/main/AndroidManifest.xml
+app/google-services.json
